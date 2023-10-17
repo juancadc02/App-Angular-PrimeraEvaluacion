@@ -1,0 +1,12 @@
+<div class="contenedor-asignatura">
+    <p>Mostrará una lista de asignaturas cada una
+        con el profesor que la imparte. Para esta lista
+        crearás un componente asignatura.</p>
+
+        <ul class="asignaturas">
+            <li *ngFor="let asignatura of asignatura">
+                <span class="badge">{{asignatura.nombreProfesor}}</span>
+                <span class="name">{{asignatura.asignatura}}</span>
+            </li>
+          </ul>
+</div>
