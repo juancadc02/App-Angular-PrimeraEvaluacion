@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  title="Proyecto Primera Evaluación."
-  nombreAlumno="Juan Carlos Dorado Castro."
+  title="Aplicación Primera Evaluación.";
+  nombre='Juan Carlos Dorado Castro';
+
+
 }

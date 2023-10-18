@@ -1,15 +1,21 @@
 <header>
     <h1>{{title}}</h1>
-    <h3>Alumno:{{nombreAlumno}}</h3>
+    <h3>Nombre:{{nombre}}</h3>
+
     <div class="container text-center">
-      <div class="row">
-        <div class="col" id="contenedor1">
-          Asignaturas
-        </div>
-        <div class="col">
-          Preguntas
+        <div class="row">
+          <div class="col" >
+            <div class="p-3 mb-2 bg-info-subtle" routerLink="/Inicio">Inicio</div>  
+          </div>
+          <div class="col" >
+            <div class="p-3 mb-2 bg-info-subtle" routerLink="/Asignaturas">Asignaturas</div>  
+          </div>
+          <div class="col">
+            <div class="p-3 mb-2 bg-info-subtle" routerLink="/Preguntas">Preguntas</div>          </div>
         </div>
       </div>
-    </div>
-  </header>
+
   
+
+</header>
+<router-outlet></router-outlet>

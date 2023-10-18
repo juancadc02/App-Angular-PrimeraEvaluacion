@@ -1,0 +1,9 @@
+<!--Muestro todos los datos del mock-listaAsignaturas-->
+<div id="contenedor-titulo-listaAsignatura" class="container">
+    <h3>Listado de profesores.</h3>
+</div>
+<ul id="lista-profesores" class="list-group list-group-flush">
+    <li class="list-group-item" *ngFor="let asignatura of listaAsignatura">
+        {{asignatura.nombreProfesor}}  --  {{asignatura.siglas}}  --  {{asignatura.nombreAsignatura}}
+    </li>
+  </ul>

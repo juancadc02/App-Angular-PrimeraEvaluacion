@@ -1,0 +1,9 @@
+<div id="contenedor-titulo-listaAsignatura" class="container">
+    <h3>Listado de preguntas.</h3>
+</div>
+<!--Muestro todos los datos del mock-listaPreguntas-->
+<ul class="list-group list-group-flush">
+    <li class="list-group-item" *ngFor="let preguntas of listaPreguntas">
+      <b>{{preguntas.preguntas}}:</b> <br/>{{preguntas.respuesta}}
+    </li>
+  </ul>
