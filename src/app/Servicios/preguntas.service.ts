@@ -9,6 +9,7 @@ export class PreguntasService {
 
   constructor() { }
 
+  //Metodo que emite un observable que devuelve una lista de preguntas.
   getPreguntasServicio(){
     const preguntas=of(LISTAPREGUNTAS);
     return preguntas;

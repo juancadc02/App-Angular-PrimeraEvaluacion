@@ -1,21 +1,22 @@
 <header>
     <h1>{{title}}</h1>
     <h3>Nombre:{{nombre}}</h3>
-
+    <!--Contenedor con las dirente opciones que tenemos.-->
     <div class="container text-center">
         <div class="row">
+            <!--Roouting para ir al inicio-->
           <div class="col" >
             <div class="p-3 mb-2 bg-info-subtle" routerLink="/Inicio">Inicio</div>  
           </div>
+           <!--Roouting para ir al asignaturas-->
           <div class="col" >
             <div class="p-3 mb-2 bg-info-subtle" routerLink="/Asignaturas">Asignaturas</div>  
           </div>
+          <!--Roouting para ir a las preguntas-->
           <div class="col">
             <div class="p-3 mb-2 bg-info-subtle" routerLink="/Preguntas">Preguntas</div>          </div>
         </div>
       </div>
-
-  
-
 </header>
+<!--Con esta etiqueta cargaremos los diferentes enrutamientos.-->
 <router-outlet></router-outlet>

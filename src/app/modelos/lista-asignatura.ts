@@ -1,3 +1,4 @@
+//Interfaz de listaAsigantura
 export interface ListaAsignatura {
   
     nombreProfesor:string;

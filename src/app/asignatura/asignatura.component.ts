@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { LISTAASIGNATURAS } from '../Modelos/mock-listaAsignatura';
 
 @Component({
@@ -7,6 +7,4 @@ import { LISTAASIGNATURAS } from '../Modelos/mock-listaAsignatura';
   styleUrls: ['./asignatura.component.css']
 })
 export class AsignaturaComponent {
-
-  datos =LISTAASIGNATURAS;
 }

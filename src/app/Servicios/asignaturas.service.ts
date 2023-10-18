@@ -9,7 +9,7 @@ import { LISTAASIGNATURAS } from '../Modelos/mock-listaAsignatura';
 export class AsignaturasService {
 
   constructor() { }
-  //Metodo para devolver la lista de asignaturas.
+  //Metodo que emite un observable que devuelve una lista de asignaturas.
   getAsignaturaServicio():Observable<ListaAsignatura[]>{
    const asignatura=of(LISTAASIGNATURAS);
    return asignatura;
